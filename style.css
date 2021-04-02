@@ -17,10 +17,15 @@ top: 12.89px;
 }
 .Group1-1{
   position: absolute;
+  cursor: pointer;
 width: 111.84px;
 height: 125.39px;
 left: 38.66px;
 top: 39.06px;
+transition: 5s;
+transition-timing-function: ease-in-out;
+animation: wew 5s linear 0s infinite;
+
 }
 .Vector-2{
   position: absolute;
@@ -90,12 +95,25 @@ top: 1px;
 }
 .Group7-1{
   position: absolute;
+  cursor: pointer;
 width: 133.75px;
 height: 147.42px;
 left: 1206.63px;
 top: 31.19px;
+transition: 5s;
+transition-timing-function: ease-in-out;
+animation: sun 5s linear 0s infinite;
 
 }
+/* @keyframes sun {
+   from {transform:rotate(0deg);}
+   to {transform:rotate(360deg);}
+
+
+
+
+
+} */
 .Group8{
   position: absolute;
 width: 182.13px;
@@ -1852,10 +1870,12 @@ top: 0px;
 }
 .group36{
   position: relative;
+  cursor: pointer;
   width: 219.13px;
   height: 544.33px;
   left: 581.5px;
   top: 337px;
+  transition: left 5s cubic-bezier(0, .5, .5, 1);
 
 }
 
@@ -2087,3 +2107,8 @@ top: 1414.7px;
   height: 78.24px;
   left: 933px;
   top: 1458px;
+}
+
+.color{
+  background: yellow;
+}
